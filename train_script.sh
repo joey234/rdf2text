@@ -6,4 +6,5 @@
 
 # python OpenNMT-py/preprocess.py -train_src dataset/train.src -train_tgt dataset/train.tgt -valid_src dataset/dev.src -valid_tgt dataset/dev.tgt -save_data dataset/webnlg
 
+
 python OpenNMT-py/train.py -data dataset/webnlg -save_model baseline-model --train_steps 100000 --gpu_ranks 0 --world_size 1
